@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" font-family="Helvetica, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f7f9"/>
+      <stop offset="100%" stop-color="#e8eef1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)"/>
+
+  <!-- Title block -->
+  <text x="60" y="78" font-size="34" font-weight="700" fill="#1d3a4a">Geography + AI</text>
+  <text x="60" y="112" font-size="20" fill="#4a7080">Teaching Notebooks · reproducible, runnable, open</text>
+  <line x1="60" y1="132" x2="320" y2="132" stroke="#2a9d8f" stroke-width="3"/>
+
+  <!-- Panel 1: ML rainfall -->
+  <g>
+    <rect x="60" y="166" width="340" height="160" rx="12" fill="#ffffff" stroke="#cdd9de" stroke-width="1.5"/>
+    <text x="84" y="200" font-size="15" font-weight="700" fill="#2a9d8f">01</text>
+    <text x="84" y="226" font-size="17" font-weight="600" fill="#1d3a4a">Storm rainfall patterns</text>
+    <text x="84" y="250" font-size="13" fill="#5a7a86">PCA + k-means clustering</text>
+    <!-- mini heatmap motif -->
+    <g transform="translate(84,266)">
+      <rect x="0" y="0" width="16" height="16" fill="#cfe6f5"/>
+      <rect x="18" y="0" width="16" height="16" fill="#7fb9dd"/>
+      <rect x="36" y="0" width="16" height="16" fill="#3f8cbf"/>
+      <rect x="54" y="0" width="16" height="16" fill="#7fb9dd"/>
+      <rect x="0" y="18" width="16" height="16" fill="#7fb9dd"/>
+      <rect x="18" y="18" width="16" height="16" fill="#3f8cbf"/>
+      <rect x="36" y="18" width="16" height="16" fill="#1d5e85"/>
+      <rect x="54" y="18" width="16" height="16" fill="#3f8cbf"/>
+    </g>
+  </g>
+
+  <!-- Panel 2: Watershed GIS -->
+  <g>
+    <rect x="430" y="166" width="340" height="160" rx="12" fill="#ffffff" stroke="#cdd9de" stroke-width="1.5"/>
+    <text x="454" y="200" font-size="15" font-weight="700" fill="#2a9d8f">02</text>
+    <text x="454" y="226" font-size="17" font-weight="600" fill="#1d3a4a">Watershed analysis</text>
+    <text x="454" y="250" font-size="13" fill="#5a7a86">DEM hydrology in pure Python</text>
+    <!-- mini stream network motif -->
+    <g transform="translate(454,260)" stroke="#3f8cbf" stroke-width="2.4" fill="none" stroke-linecap="round">
+      <path d="M 130 4 L 90 22 L 60 42"/>
+      <path d="M 96 6 L 90 22"/>
+      <path d="M 40 10 L 70 30 L 60 42"/>
+      <path d="M 60 42 L 44 56"/>
+    </g>
+  </g>
+
+  <!-- Panel 3: AI teaching -->
+  <g>
+    <rect x="800" y="166" width="340" height="160" rx="12" fill="#ffffff" stroke="#cdd9de" stroke-width="1.5"/>
+    <text x="824" y="200" font-size="15" font-weight="700" fill="#2a9d8f">03</text>
+    <text x="824" y="226" font-size="17" font-weight="600" fill="#1d3a4a">AI in the classroom</text>
+    <text x="824" y="250" font-size="13" fill="#5a7a86">Patterns for using AI critically</text>
+    <!-- mini chat motif -->
+    <g transform="translate(824,262)">
+      <rect x="0" y="0" width="120" height="20" rx="10" fill="#e3eef3"/>
+      <rect x="40" y="26" width="120" height="20" rx="10" fill="#2a9d8f"/>
+    </g>
+  </g>
+
+  <!-- footer note -->
+  <text x="1140" y="112" text-anchor="end" font-size="13" fill="#88a2ad" font-style="italic">maintained by Jun-Yi Lee · updated over time</text>
+</svg>
